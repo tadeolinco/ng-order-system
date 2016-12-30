@@ -1,0 +1,115 @@
+<div class="ui grid container">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row">
+        <div class="four wide column">
+            <sm-button class="fluid" icon="level up"
+                (click)="nextBatch()">
+                Next Batch
+            </sm-button>
+        </div>
+        <div class="four wide column">
+            <sm-button class="fluid" icon="undo"
+                (click)="resetForm()">
+                Reset Form
+            </sm-button>
+        </div>
+        <div class="eight wide column">
+            <div class="ui icon input fluid">
+                <input type="text" id="search-input"
+                    placeholder="Search"
+                    [(ngModel)]="query"
+                    (ngModelChange)="searchMenu($event)"
+                    (focus)="selectAllInput('#search-input')">
+                <i class="search icon"></i>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="eight wide column">
+            <div class="ui center aligned segment">
+                <div class="ui fluid icon input" id="nameInputDiv">
+                    <input type="text" required id="nameInput"
+                        [placeholder]="customerNamePlaceholder"
+                        [(ngModel)]="customerName"
+                        (keyup)="checkNameValidity()">
+                    <i class="user icon"></i>
+                </div>
+                <table class="ui celled center aligned table">
+                    <thead>
+                        <tr>
+                            <th>Price</th>
+                            <th>Food</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let order of customerOrders">
+                            <td>P{{order.price}}</td>
+                            <td>{{order.food}}</td>
+                            <td>
+                                <button class="ui icon button"
+                                (click)="removeOrder(order)">
+                                    <i class="remove icon"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Total Price: {{totalPrice}}</h3>
+                <button class="ui fluid icon button"
+                    (click)="takeOrder()">
+                    <i class="book icon"></i>
+                    Take Order [ Batch: {{batch}} ]
+                </button>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <div class="ui large red icon message" *ngIf="!menus?.length && initialized">
+                <i class="warning icon"></i>
+                <div class="content">
+                    <div class="header">
+                        No results :(
+                    </div>
+                    <p>Please try a different search query.</p>
+                </div>
+            </div>
+            <div class="ui segment" *ngIf="menus?.length" 
+                style="overflow-y:scroll;white-space:nowrap;height:80vh">
+                <div class="ui one cards">
+                    <div class="ui card" *ngFor="let item of menus">
+                        <div class="content">
+                            <div class="header center-content">
+                               [ P{{item.price}} ] - {{item.food}}
+                            </div>
+                        </div>
+                        <div class="extra-content">
+                            <div class="ui two buttons">
+                                <div class="ui button" icon="add"
+                                    [class.disabled]="!item.isAvailable"
+                                    (click)="addOrder(item)">
+                                    <i class="add icon"></i>
+                                    Add
+                                </div>
+                                <div *ngIf="item.isAvailable" 
+                                    class="ui green inverted button"
+                                    (click)="changeAvailability(item)">
+                                    <i class="check icon"></i>
+                                    Available
+                                </div>
+                                <div *ngIf="!item.isAvailable" 
+                                    class="ui red inverted button"
+                                    (click)="changeAvailability(item)">
+                                    <i class="remove icon"></i>
+                                    Unavailable
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

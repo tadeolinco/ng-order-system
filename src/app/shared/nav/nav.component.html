@@ -1,0 +1,9 @@
+<div class="ui three item menu top fixed red inverted">
+    <a class="item"
+        *ngFor="let link of links"
+        routerLink="/{{link.title}}"
+        routerLinkActive="active">
+        <i [ngClass]="link.icon"></i>
+        {{ link.title | capitalize }}
+    </a>
+</div>

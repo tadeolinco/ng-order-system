@@ -1,0 +1,60 @@
+<div class="ui grid container">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row">
+        <div class="five wide column"></div>
+        <div class="six wide column">
+            <div class="ui styled fluid accordion">
+                <div *ngFor="let receipt of receipts">
+                    <div class="title"
+                        style="text-align: center !important">
+                        Batch {{receipt.batch}}
+                    </div>
+                    <div class="content">
+                        <table class="ui celled striped table fixed center aligned">
+                            <thead>
+                                <tr>
+                                    <th>Quantity</th>
+                                    <th colspan="4">Food</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let order of receipt.orders">
+                                    <td>{{order.quantity}}</td>
+                                    <td colspan="4">{{order.food}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="title"
+                    style="text-align: center !important">
+                    Overall
+                </div>
+                <div class="content">
+                    <table class="ui celled striped table fixed center aligned">
+                        <thead>
+                            <tr>
+                                <th>Quantity</th>
+                                <th colspan="4">Food</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let order of overAllReceipt.orders">
+                                <td>{{order.quantity}}</td>
+                                <td colspan="4">{{order.food}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="sixteen wide column">
+            <h3 style="text-align: center !important">
+                Total Price: {{totalPrice}}
+            </h3>
+        </div>
+    </div>
+</div>
