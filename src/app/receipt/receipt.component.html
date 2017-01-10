@@ -15,13 +15,13 @@
                             <thead>
                                 <tr>
                                     <th>Quantity</th>
-                                    <th colspan="4">Food</th>
+                                    <th colspan="3">Food</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr *ngFor="let order of receipt.orders">
                                     <td>{{order.quantity}}</td>
-                                    <td colspan="4">{{order.food}}</td>
+                                    <td colspan="3">{{order.food}}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -36,13 +36,13 @@
                         <thead>
                             <tr>
                                 <th>Quantity</th>
-                                <th colspan="4">Food</th>
+                                <th colspan="3">Food</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr *ngFor="let order of overAllReceipt.orders">
                                 <td>{{order.quantity}}</td>
-                                <td colspan="4">{{order.food}}</td>
+                                <td colspan="3">{{order.food}}</td>
                             </tr>
                         </tbody>
                     </table>

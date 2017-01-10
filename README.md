@@ -5,7 +5,7 @@
 1. Clone a copy
 2. `cd` into it
 3. `npm install`
-4. `npm run bundle`
+4. `npm run build`
 5. In another terminal, `npm start`
 6. Open up your favorite browser
 7. Go to `localhost:3000`
