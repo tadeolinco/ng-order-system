@@ -51,7 +51,6 @@ export class ReceiptComponent implements OnInit {
                         this.insertOrder(this.overAllReceipt, order);
                     }
                 }
-                console.log(this.receipts);
             });
     }
 

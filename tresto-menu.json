@@ -1,0 +1,111 @@
+{"_id":{"$oid":"58619bee09d58a2641dd17d5"},"food":"PEANUTS","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619bf709d58a2641dd17d6"},"food":"KROPEK","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c0309d58a2641dd17d7"},"food":"FRENCH FRIES","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c0e09d58a2641dd17d8"},"food":"CHEEZY FRIES","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c2f09d58a2641dd17da"},"food":"CHEESE STICKS","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c3609d58a2641dd17db"},"food":"DYNAMITE","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c3d09d58a2641dd17dc"},"food":"BREADED TOFU","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c4409d58a2641dd17dd"},"food":"NACHO FRIES","price":150,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c4e09d58a2641dd17de"},"food":"SPAGHETTI","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c5309d58a2641dd17df"},"food":"CARBONARA","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c5909d58a2641dd17e0"},"food":"TOASTED BREAD","price":10,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c6209d58a2641dd17e1"},"food":"CHEESE BURGER","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c6c09d58a2641dd17e2"},"food":"CHICKEN FILLET","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c7309d58a2641dd17e3"},"food":"FISH FILLET","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c7d09d58a2641dd17e4"},"food":"HAM AND EGG SANDWICH","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619c8109d58a2641dd17e5"},"food":"SPAM AND EGG SANDWICH","price":85,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619ca809d58a2641dd17e6"},"food":"HOTSILOG","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cb209d58a2641dd17e7"},"food":"SHANGHAISILOG","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cc809d58a2641dd17e9"},"food":"TAPSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619ccf09d58a2641dd17ea"},"food":"TOCILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cd409d58a2641dd17eb"},"food":"LONGSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cef09d58a2641dd17ec"},"food":"CORNSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cf209d58a2641dd17ed"},"food":"SPICY CORNSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cfa09d58a2641dd17ee"},"food":"SISIGSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619cfe09d58a2641dd17ef"},"food":"SPICY SISIGSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d0609d58a2641dd17f0"},"food":"PORKCHOPSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d0d09d58a2641dd17f1"},"food":"BANGUSILOG","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d1409d58a2641dd17f2"},"food":"SPAMSILOG","price":70,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d1b09d58a2641dd17f3"},"food":"LIEMPOSILOG","price":75,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d2209d58a2641dd17f4"},"food":"BURGER STEAK","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d2d09d58a2641dd17f5"},"food":"SPICY HOTDOG","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d3209d58a2641dd17f6"},"food":"VANILLA CHICKEN","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d3909d58a2641dd17f7"},"food":"GARLIC CHICKEN","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d4309d58a2641dd17f8"},"food":"SPICY GARLIC CHICKEN","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d4b09d58a2641dd17f9"},"food":"CHICKEN KATSU","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d5409d58a2641dd17fa"},"food":"FISH KATSU","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d5f09d58a2641dd17fb"},"food":"PORK KATSU","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d6a09d58a2641dd17fc"},"food":"ULTIMATE SPICY BURGER STEAK","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d7409d58a2641dd17fd"},"food":"TUNA AND CHEESE OMELET","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d7909d58a2641dd17fe"},"food":"HAM AND CHEESE OMELET","price":65,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d8309d58a2641dd17ff"},"food":"GRILLED LIEMPO","price":75,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619d9b09d58a2641dd1800"},"food":"CHICKEN INASAL (LEG)","price":75,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619da209d58a2641dd1801"},"food":"PORK BARBEQUE","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dac09d58a2641dd1802"},"food":"CORDON BLUE","price":90,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619db709d58a2641dd1803"},"food":"BURGER STEAK PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dbc09d58a2641dd1804"},"food":"TOKWA'T BABOY PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dc009d58a2641dd1805"},"food":"VANILLA CHICKEN PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dc609d58a2641dd1806"},"food":"GARLIC CHICKEN PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dcc09d58a2641dd1807"},"food":"SPICY GARLIC CHICKEN PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dd109d58a2641dd1808"},"food":"PORK SHANGHAI PLATTER","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dd909d58a2641dd1809"},"food":"CHICKEN KATSU PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619ddd09d58a2641dd180a"},"food":"FISH KATSU PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619de109d58a2641dd180b"},"food":"PORK KATSU PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619deb09d58a2641dd180c"},"food":"ULTIMATE SPICY BURGER STEAK PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619df809d58a2641dd180d"},"food":"LECHON KAWALI PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619dfd09d58a2641dd180e"},"food":"SPICY HOTDOG PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e0209d58a2641dd180f"},"food":"SISIGSILOG PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e0609d58a2641dd1810"},"food":"SPICY SISIGSILOG PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e0d09d58a2641dd1811"},"food":"TUNA AND CHEESE OMELET PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e1209d58a2641dd1812"},"food":"HAM AND CHEESE OMELET PLATTER","price":110,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e1a09d58a2641dd1813"},"food":"SPICY CORNEDBEEF PLATTER","price":120,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e2709d58a2641dd1814"},"food":"CHICKEN WINGS PLATTER","price":120,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e2b09d58a2641dd1815"},"food":"CALAMARES PLATTER","price":120,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e3509d58a2641dd1816"},"food":"EXTRA TERIYAKI SAUCE","price":10,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e3b09d58a2641dd1817"},"food":"EXTRA KATSU SAUCE","price":10,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e3f09d58a2641dd1818"},"food":"EXTRA GRAVY","price":10,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e4509d58a2641dd1819"},"food":"EXTRA SPICY GRAVY","price":10,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e4a09d58a2641dd181a"},"food":"EXTRA RICE","price":12,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e4f09d58a2641dd181b"},"food":"EXTRA EGG","price":12,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e5709d58a2641dd181c"},"food":"EXTRA CHILICON","price":25,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e5c09d58a2641dd181d"},"food":"EXTRA ACHARA","price":25,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e6509d58a2641dd181e"},"food":"ICED TEA","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e6909d58a2641dd181f"},"food":"BOTTLED WATER","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e6c09d58a2641dd1820"},"food":"PEPSI","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e6f09d58a2641dd1821"},"food":"COKE","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e7209d58a2641dd1822"},"food":"SPRITE","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e7409d58a2641dd1823"},"food":"MIRINDA","price":15,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e7b09d58a2641dd1824"},"food":"MOUNTAIN DEW","price":20,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e8109d58a2641dd1825"},"food":"SWISSMISS (HOT)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e8609d58a2641dd1826"},"food":"SWISSMISS (COLD)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e8a09d58a2641dd1827"},"food":"MILO (HOT)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e8e09d58a2641dd1828"},"food":"MILO (COLD)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e9209d58a2641dd1829"},"food":"COFFEE (HOT)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e9509d58a2641dd182a"},"food":"COFFEE (COLD)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e9a09d58a2641dd182b"},"food":"TEA (HOT)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619e9e09d58a2641dd182c"},"food":"TEA (COLD)","price":30,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f7009d58a2641dd1830"},"food":"FRESH CALAMANSI JUICE (HOT)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f7609d58a2641dd1831"},"food":"FRESH CALAMANSI JUICE (COLD)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f7a09d58a2641dd1832"},"food":"MANGO (CANNED JUICE)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f7d09d58a2641dd1833"},"food":"FOUR SEASONS (CANNED JUICE)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f8209d58a2641dd1834"},"food":"PINEAPPLE (CANNED JUICE)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f8709d58a2641dd1835"},"food":"ORANGE (CANNED JUICE)","price":40,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f8d09d58a2641dd1836"},"food":"BREWED COFFEE","price":60,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f9309d58a2641dd1837"},"food":"COKE (1.5L)","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f9809d58a2641dd1838"},"food":"COKE ZERO (1.5L)","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619f9e09d58a2641dd1839"},"food":"MOUNTAIN DEW (1.5L)","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fa509d58a2641dd183a"},"food":"ICED TEA (PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fa909d58a2641dd183b"},"food":"PINEAPPLE JUICE (PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619faf09d58a2641dd183c"},"food":"ORANGE JUICE(PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fb309d58a2641dd183d"},"food":"STRAWBERRY JUICE (PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fb809d58a2641dd183e"},"food":"GRAPE JUICE (PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fbc09d58a2641dd183f"},"food":"MANGO JUICE (PITCHER)","price":50,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fc109d58a2641dd1840"},"food":"MANGO SHAKE","price":55,"isAvailable":false,"__v":0}
+{"_id":{"$oid":"58619fc709d58a2641dd1841"},"food":"MELON SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fcd09d58a2641dd1842"},"food":"OREO SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fd409d58a2641dd1843"},"food":"COFFEE SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fd809d58a2641dd1844"},"food":"CHOC NUT SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fdc09d58a2641dd1845"},"food":"SWISSMISS SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fdf09d58a2641dd1846"},"food":"MILO SHAKE","price":55,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fe609d58a2641dd1847"},"food":"NUTELLA SHAKE","price":100,"isAvailable":true,"__v":0}
+{"_id":{"$oid":"58619fea09d58a2641dd1848"},"food":"SPECULOOS SHAKE","price":100,"isAvailable":true,"__v":0}
