@@ -2,11 +2,13 @@ import * as express from 'express';
 import * as bodyParser from 'body-parser';
 import * as morgan from 'morgan';
 import * as mongoose from 'mongoose';
+import * as compression from 'compression';
 import router from './routes';
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended : true }));
 app.use(bodyParser.json());
+app.use(compression());
 app.use(morgan('dev'));
 
 app.use(express.static(__dirname + '/assets'));
